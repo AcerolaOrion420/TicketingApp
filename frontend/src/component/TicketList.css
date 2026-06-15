@@ -1,0 +1,95 @@
+.ticket-list {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.ticket-list h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.ticket-card {
+    background-color: #fefefe;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.ticket-card h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.ticket-card p {
+    margin: 8px 0;
+    color: #555;
+}
+
+.ticket-buttons {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.ticket-buttons button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.ticket-buttons button:hover {
+    opacity: 0.9;
+}
+
+.ticket-buttons button:nth-child(1) {
+    background-color: #39ff07;
+    color: #000;
+}
+
+.ticket-buttons button:nth-child(2) {
+    background-color: #0843e6;
+    color: white;
+}
+
+.ticket-buttons button:nth-child(3) {
+    background-color: #eeff00;
+    color: #000;
+}
+
+.ticket-buttons .delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.status-open {
+    background-color: #eeff00;
+    color: #000;
+}
+
+.status-in-progress {
+    background-color: #39ff07;
+    color: #000;
+}
+
+.status-resolved {
+    background-color: #0843e6;
+    color: white;
+}
